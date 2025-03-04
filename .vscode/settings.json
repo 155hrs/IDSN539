@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Assignment_1_Github.sln"
+    "dotnet.defaultSolution": "IDSN539.sln"
 }

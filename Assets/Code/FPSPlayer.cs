@@ -19,7 +19,7 @@ public class FPSPlayer : MonoBehaviour
     void Start()
     {
         camTrans = Camera.main.transform;
-        Cursor.lockState = CursorLockMode.Locked;
+        // Cursor.lockState = CursorLockMode.Locked;
 
         rb = GetComponent<Rigidbody>();
     }
@@ -47,6 +47,8 @@ public class FPSPlayer : MonoBehaviour
         {
             rb.AddForce(new Vector3(0, jumpForce, 0));
         }
+
+        
 
     }
 }
